@@ -1,10 +1,19 @@
 ![Now in Android](docs/images/nia-splash.jpg "Now in Android")
 
-Now in Android App [Work in progress 🚧]
+Now in Android App [Demonstrates [SealedX](https://github.com/skydoves/sealedx) KSP library]
 ==================
 
-This is the repository for the [Now in Android](https://developer.android.com/series/now-in-android)
-app.
+The original repository came from the [Now in Android](https://developer.android.com/series/now-in-android).<br>
+The purpose of this repository is to demonstrate **[SealedX](https://github.com/skydoves/sealedx)** KSP library. <br>
+
+SealedX is a Kotlin Symbol Processor library to auto-generate extensive sealed classes and interfaces for Android and Kotlin.
+
+## Why SealedX?
+
+**[SealedX](https://github.com/skydoves/sealedx)** generates extensive sealed classes & interfaces based on common sealed classes for each different model. You can reduce writing repeated sealed classes for every different model by auto-generating based on KSP ([Kotlin Symbol Processor](https://kotlinlang.org/docs/ksp-overview.html)).<br><br>
+You can massively reduce writing repeated files such as `_UiState` sealed interfaces if your project is based on MVI architecture.
+
+## Now in Android?
 
 **Now in Android** is a fully functional Android app built entirely with Kotlin and Jetpack Compose. It
 follows Android design and development best practices and is intended to be a useful reference
